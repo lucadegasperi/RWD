@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/*------------------------------------*\
+    CONTENTS
+\*------------------------------------*/
+/*
+MAIN
+IFRAMES
+*/
+
+
+
+
+
+/*------------------------------------*\
+    $MAIN
+\*------------------------------------*/
+html{
+    padding:24px;
+    padding:1.5rem;
+    overflow-y:scroll;
+    font:1em/1.5 Georgia, serif;
+    color:#333;
+    background-color:#fff;
+}
+body{
+    margin:0;
+}
+
+
+
+
+
+/*------------------------------------*\
+    $IFRAMES
+\*------------------------------------*/
+iframe{
+    display:block;
+    margin:0 24px 24px 0;
+    border:1px solid #ccc;
+}
+
+.mobile{
+    float:left;
+}
+
+.full{
+    margin-right:-24px;
+    margin-left:-24px;
+}
+
+    .full > iframe{
+        width:100%;
+        height:768px;
+        border-width:1px 0;
+        margin-bottom:0;
+    }
+
+.any{
+    resize:both;
+    overflow:auto;
+}
